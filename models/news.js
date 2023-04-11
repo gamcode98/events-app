@@ -1,4 +1,5 @@
 const { mongoose } = require('../config/db')
+const mongoosePagination = require('mongoose-paginate-v2')
 
 const Schema = mongoose.Schema
 
@@ -15,6 +16,8 @@ const newsSchema = new Schema(
     versionKey: false
   }
 )
+
+newsSchema.plugin(mongoosePagination)
 
 const NewsModel = mongoose.model('News', newsSchema)
 
