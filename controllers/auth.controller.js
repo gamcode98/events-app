@@ -1,6 +1,6 @@
 const boom = require('@hapi/boom')
 const { asyncHandler } = require('../middlewares/async.handler')
-const { find, createUser } = require('../services/auth.services')
+const { find, createUser } = require('../services/auth.service')
 const { encrypt, verify } = require('../utils/bcrypt.handler')
 const { generateToken } = require('../utils/jwt.handler')
 

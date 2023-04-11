@@ -4,8 +4,11 @@ const { port, url } = require('./config')
 const { connection } = require('./config/db')
 const { logErrors, boomErrorHandler, errorHandler } = require('./middlewares/error.handler')
 const { routerApi } = require('./routes')
+const { checkNews } = require('./seed/checkNews')
 
 connection()
+
+checkNews()
 
 const app = express()
 
