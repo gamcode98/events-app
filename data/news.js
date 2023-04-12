@@ -103,7 +103,7 @@ const news = [
     content: ['La tradicional Feria de Ofrendas se realiza desde ayer y hasta el 1° de noviembre en el Centro Cultural Manuel Belgrano con más de 120 puestos.', 'Inició la tradicional Feria de Ofrendas en el Centro Cultural Manuel Belgrano, ex Vieja Estación de Trenes en San Salvador de Jujuy con más de 120 puestos de productos y alimentos.'],
     date: '30 de octubre de 2022 - 09:59',
     author: 'Maria Eugenia Burgos',
-    images: ['feria-ofrendas-1.webp', 'feria-ofrendas-2.jpeg'],
+    images: ['feria-ofrendas-1.webp', 'feria-ofrendas-2.webp'],
     category: ['Tradición', 'Cultura'],
     url: 'https://www.todojujuy.com/jujuy/feria-ofrendas-el-1-noviembre-n226919'
   }
