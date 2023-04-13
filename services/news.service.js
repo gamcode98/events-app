@@ -5,8 +5,8 @@ const register = async (data) => {
   return response
 }
 
-const find = async (options) => {
-  const response = await NewsModel.paginate({}, options)
+const find = async (query, options) => {
+  const response = await NewsModel.paginate(query, options)
   return response
 }
 
