@@ -1,6 +1,6 @@
 const news = [
   {
-    title: 'Carnaval de Jujuy 2023: cuándo es el desentierro del diablo, qué días son feriados y cómo comprar las entradas para el show de Los Tekis',
+    title: 'Carnaval de Jujuy 2023: cuándo es el desentierro del diablo, qué días son feriados',
     content: ['El Ministerio de Cultura y Turismo de la provincia de Jujuy publicó el cronograma de actividades a desarrollarse en el marco de las celebraciones por carnaval 2023.', 'Con el anticipo más resonante pautado para el 16 de febrero, fecha en la que se dará paso al "Jueves de Comadres", el sábado 18 será turno del clásico "Desentierro del Diablo", llamado Coludo o Pujllay.', '"La tradición tiene reminiscencias indígenas, españolas y criollas. Además, por ser la Quebrada de Humahuaca paso obligado hacia el Perú y Bolivia, ha asimilado la música y algunas características de esos países", destaca la cartera de turismo provincial en su sitio web.'],
     images: ['carnaval-1.png', 'carnaval-2.png'],
     date: '15 de Febrero de 2023 - 10:39',
