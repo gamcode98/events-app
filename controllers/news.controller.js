@@ -20,9 +20,17 @@ const getAll = asyncHandler(async (req, res, next) => {
   const prevOffset = offsetResponse - options.limit
   const nextOffset = offsetResponse + options.limit
 
-  const prevPage = hasPrevPage ? url + '/api/v1/news?limit=' + options.limit + '&offset=' + prevOffset : null
+  let prevPage, nextPage
 
-  const nextPage = hasNextPage ? url + '/api/v1/news?limit=' + options.limit + '&offset=' + nextOffset : null
+  if (title) {
+    prevPage = hasPrevPage ? url + '/api/v1/news?limit=' + options.limit + '&offset=' + prevOffset + '&title=' + title : null
+
+    nextPage = hasNextPage ? url + '/api/v1/news?limit=' + options.limit + '&offset=' + nextOffset + '&title=' + title : null
+  } else {
+    prevPage = hasPrevPage ? url + '/api/v1/news?limit=' + options.limit + '&offset=' + prevOffset : null
+
+    nextPage = hasNextPage ? url + '/api/v1/news?limit=' + options.limit + '&offset=' + nextOffset : null
+  }
 
   return res.status(200).send({
     response: {
