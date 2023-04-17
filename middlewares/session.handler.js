@@ -1,5 +1,5 @@
-import { verifyToken } from '../utils/jwt.handler'
-import boom from '@hapi/boom'
+const { verifyToken } = require('../utils/jwt.handler')
+const boom = require('@hapi/boom')
 
 const checkJwt = (req, res, next) => {
   try {
