@@ -10,7 +10,11 @@ const newsSchema = new Schema(
     author: { type: String },
     date: { type: String },
     category: [String],
-    images: [String]
+    images: [String],
+    location: { type: String },
+    latitude: { type: Number },
+    longitude: { type: Number },
+    price: { type: Number }
   },
   {
     versionKey: false
