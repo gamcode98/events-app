@@ -1,11 +1,8 @@
 const { sign, verify } = require('jsonwebtoken')
 const { jwtSecret } = require('../config')
 
-const generateToken = (payload, time = '2h') => {
-  const jwt = sign(payload, jwtSecret, {
-    expiresIn: time
-  })
-
+const generateToken = (payload) => {
+  const jwt = sign(payload, jwtSecret)
   return jwt
 }
 
