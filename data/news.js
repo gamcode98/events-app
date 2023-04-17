@@ -6,16 +6,26 @@ const news = [
     date: '15 de Febrero de 2023 - 10:39',
     author: 'Federico Franco',
     category: ['Cultura', 'Turismo'],
-    url: ''
+    url: 'http://www.turismo.jujuy.gob.ar/event/carnaval/',
+    location: 'Plaza Sargento Mariano Gómez, Humahuaca',
+    latitude: -23.203867556133538,
+    longitude: -65.34870679861491,
+    price: 2000
+   
   },
   {
     title: 'Día de la Pachamama: ¿Dónde y cómo se celebra?',
     content: ['Una costumbre ancestral cargada de creencias, desafíos y rituales comienza este lunes 1° de agosto, y los jujeños ya se preparan para agradecer y pedir.', 'En el noroeste argentino, especialmente en Jujuy y Salta, tradicionalmente se celebra el Día de la Pachamama y a nivel latinoamericano en Bolivia, Perú y el norte de Chile. Esta fecha simboliza un nuevo comienzo para muchos, la oportunidad de agradecer y la de pedir buenos augurios.', 'La palabra Pachamama surge de la unión de dos vocablos quechuas: "pacha" - espacio/tiempo -, que significa universo, mundo, lugar; y de "mama", que quiere decir madre. Para los pueblos originarios quechuas, la Madre Tierra era la deidad máxima de los cerros peruanos, bolivianos y del noroeste Argentino.'],
-    date: '29 de julio de 2022 - 07:20',
+    date: '01 de Agosto de 2023 - 07:20',
     author: 'Federico Franco',
     images: ['pachamama-1.webp', 'pachamama-2.webp'],
     category: ['Cultura'],
-    url: ''
+    url: 'https://uquiacabanas.com/evento/fiesta-de-la-pachamama/',
+    location: 'Biblioteca Popular "Viltipoco", Uquía',
+    latitude: -23.744888071910676,
+    longitude: -65.50018351451031,
+    price: 1500
+    
   },
   {
     title: 'Fiesta Nacional de los Estudiantes 2023: 20 al 30 de septiembre',
@@ -24,7 +34,11 @@ const news = [
     author: 'Ramiro Menacho',
     images: ['fne-1.webp', 'fne-2.webp'],
     category: ['Entretenimiento', 'Cultura'],
-    url: ''
+    url: 'https://www.facebook.com/FiestaNacionalDeLosEstudiantesOficial/?locale=es_LA',
+    location: 'Ciudad Cultural, San Salvador de Jujuy',
+    latitude: -24.18337085970056,
+    longitude: -65.33128692450877,
+    price: 3000
   },
   {
     title: 'Hoy se realizará la Expo Educativa Provincial 2022 en Jujuy',
@@ -33,16 +47,24 @@ const news = [
     author: 'Federico Franco',
     images: ['expo-educativa-1.webp', 'expo-educativa-2.webp'],
     category: ['Educación'],
-    url: ''
+    url: 'http://educacion.jujuy.gob.ar/2022/11/08/llega-la-expo-educativa-provincial-2022/',
+    location: 'IES N°11, San Salvador de Jujuy',
+    latitude: -24.184245674762092,
+    longitude: -65.30906558250652,
+    price: 250
   },
   {
     title: 'Palpalá: realizarán la feria del libro "Artes en Letras"',
     content: ['Desde el 19 hasta el 23 de abril se llevará a cabo esta propuesta en la Casa de la Historia y Cultura de la localidad de Palpalá. La entrada será gratuita.', 'El martes desde las 19 en la Casa de la Historia y Cultura de la ciudad de Palpalá iniciará una nueva edición de la feria del libro llamada "Artes en Letras". El evento será hasta el sábado 23 de abril con entrada libre y gratuita, y se planificaron diversas actividades para esa semana.', 'El día de apertura contará con la presencia de varios escritores reconocidos de Jujuy informaron desde la Municipalidad de Palpalá que organiza el evento. La Casa de la Historia y Cultura está ubicada en avenida Congreso esquina Río Chubut.'],
-    date: '14 de abril de 2022 - 21:42',
+    date: '19 de abril de 2022 - 09:00',
     author: 'Federico Franco',
     images: ['feria-del-libro-1.webp', 'feria-del-libro-2.webp'],
     category: ['Educación', 'Cultura'],
-    url: ''
+    url: 'http://municipalidaddepalpala.gob.ar/index.php/noticias/8539-la-feria-nacional-del-libro-artes-en-letras-llegara-a-palpala',
+    location: 'Casa de la Cultura, San Salvador de Jujuy',
+    latitude: -24.259184118063192,
+    longitude: -65.21677361081409,
+    price: 2000
   },
   {
     title: 'Ciudad Cultural: realizarán la Expo Policial',
@@ -51,16 +73,24 @@ const news = [
     author: 'Ramiro Menacho',
     images: ['expo-policial-ciudad-cultural-1.webp', 'expo-policial-ciudad-cultural-2.webp'],
     category: ['Entretenimiento'],
-    url: 'https://www.todojujuy.com/jujuy/ciudad-cultural-realizaran-la-expo-policial-n222664'
+    url: 'https://www.todojujuy.com/jujuy/ciudad-cultural-realizaran-la-expo-policial-n222664',
+    location: 'Ciudad Cultural, San Salvador de Jujuy',
+    latitude: -24.18337085970056,
+    longitude: -65.33128692450877,
+    price: 0
   },
   {
     title: 'Inició la Expo Productiva 2021 en San Salvador de Jujuy',
     content: ['Hoy y mañana a partir de las 9 se realiza la Expo productiva 2021 en Ciudad Cultural. Habrá más de 400 productores, emprendedores y floricultores de Jujuy.', 'Desde las 9 y hasta las 23hs en el predio de Ciudad Cultural se realizará una nueva edición de la Expo Productiva. El encuentro será hoy y mañana a partir de las 12hs en el cual participarán más de 400 productores, emprendedores y floricultores de la provincia de Jujuy.'],
-    date: '11 de diciembre de 2021 - 10:14',
+    date: '11 de diciembre de 2021 - 09:00',
     author: 'Ramiro Castillo',
     images: ['expo-productiva-1.webp', 'expo-productiva-2.webp'],
     category: ['Entretenimiento'],
-    url: 'https://www.todojujuy.com/jujuy/inicio-la-expo-productiva-2021-san-salvador-jujuy-n212905'
+    url: 'https://www.todojujuy.com/jujuy/inicio-la-expo-productiva-2021-san-salvador-jujuy-n212905',
+    location: 'Ciudad Cultural, San Salvador de Jujuy',
+    latitude: -24.18337085970056,
+    longitude: -65.33128692450877,
+    price: 500
   },
   {
     title: 'Expo Tattoo Jujuy: será este finde y tendrá un fin solidario',
@@ -69,7 +99,11 @@ const news = [
     author: 'Raul Gonzales',
     images: ['expo-tattoo-1.webp', 'expo-tattoo-2.jpg'],
     category: ['Entretenimiento'],
-    url: 'https://www.todojujuy.com/jujuy/expo-tattoo-jujuy-sera-este-finde-y-tendra-un-fin-solidario-n213087'
+    url: 'https://www.todojujuy.com/jujuy/expo-tattoo-jujuy-sera-este-finde-y-tendra-un-fin-solidario-n213087',
+    location: 'El Carmen, Jujuy',
+    latitude: -24.389534459820243,
+    longitude: -65.26209017357046,
+    price: 1500
   },
   {
     title: 'Abra Pampa: realizarán la tradicional feria de Pascua',
@@ -78,7 +112,11 @@ const news = [
     author: 'Carlos Sanchez',
     images: ['huevos-pascua-2.jpg', 'tradicional-feria-pascua-1.webp'],
     category: ['Entretenimiento'],
-    url: 'https://www.todojujuy.com/jujuy/abra-pampa-realizaran-la-tradicional-feria-pascua-n217546'
+    url: 'https://www.todojujuy.com/jujuy/abra-pampa-realizaran-la-tradicional-feria-pascua-n217546',
+    location: 'Colegio Polimodal N°2, Abra Pampa',
+    latitude: -22.72744159220149,
+    longitude: -65.68968935565822,
+    price: 250
   },
   {
     title: 'San Salvador de Jujuy: exitosa feria de invierno',
@@ -87,7 +125,11 @@ const news = [
     author: 'Ramiro Menacho',
     images: ['feria-invierno-1.webp', 'feria-invierno-2.webp'],
     category: ['Entretenimiento'],
-    url: 'https://www.todojujuy.com/jujuy/san-salvador-jujuy-exitosa-feria-invierno-n222480'
+    url: 'https://www.todojujuy.com/jujuy/san-salvador-jujuy-exitosa-feria-invierno-n222480',
+    location: 'Vieja Estación, San Salvador de Jujuy',
+    latitude: -24.183399719108596,
+    longitude: -65.29918257545552,
+    price: 0
   },
   {
     title: 'Día del Niño: Hoy inicia la feria en Av. 19 de Abril',
@@ -96,7 +138,11 @@ const news = [
     author: 'Facundo Estrada',
     images: ['la-feria-del-dia-del-nino-1.webp', 'la-feria-del-dia-del-nino-2.jpeg'],
     category: ['Entretenimiento'],
-    url: 'https://www.todojujuy.com/jujuy/dia-del-nino-hoy-inicia-la-feria-av-19-abril-n724'
+    url: 'https://www.todojujuy.com/jujuy/dia-del-nino-hoy-inicia-la-feria-av-19-abril-n724',
+    location: 'Av. 19 de Abril, San Salvador de Jujuy',
+    latitude: -24.1888751300868,
+    longitude: -65.30450443854447,
+    price: 0
   },
   {
     title: 'Feria de Ofrendas hasta el 1° de noviembre',
@@ -105,7 +151,11 @@ const news = [
     author: 'Maria Eugenia Burgos',
     images: ['feria-ofrendas-1.webp', 'feria-ofrendas-2.webp'],
     category: ['Tradición', 'Cultura'],
-    url: 'https://www.todojujuy.com/jujuy/feria-ofrendas-el-1-noviembre-n226919'
+    url: 'https://www.todojujuy.com/jujuy/feria-ofrendas-el-1-noviembre-n226919',
+    location: 'Vieja Estación, San Salvador de Jujuy',
+    latitude: -24.183399719108596,
+    longitude: -65.29918257545552,
+    price: 400
   }
 ]
 
