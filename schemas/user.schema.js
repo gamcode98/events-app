@@ -1,5 +1,10 @@
 const Joi = require('joi')
 
+const username = Joi.string()
+  .min(3)
+  .max(16)
+  .pattern(/^[a-z0-9_-]{3,15}$/)
+  .message('Alphanumeric string that may include _ and - having a length of 3 to 16 characters')
 const email = Joi.string().email()
 const registerPassword = Joi.string()
   .min(8)
@@ -13,6 +18,7 @@ const registerPassword = Joi.string()
 const loginPassword = Joi.string()
 
 const createUserSchema = Joi.object({
+  username: username.required(),
   email: email.required(),
   password: registerPassword.required()
 })

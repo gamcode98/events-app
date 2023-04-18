@@ -5,7 +5,7 @@ const { encrypt, verify } = require('../utils/bcrypt.handler')
 const { generateToken } = require('../utils/jwt.handler')
 
 const signup = asyncHandler(async (req, res, next) => {
-  const { email, password } = req.body
+  const { username, email, password } = req.body
 
   const exist = await find({ email })
 
@@ -13,7 +13,7 @@ const signup = asyncHandler(async (req, res, next) => {
 
   const passwordHash = await encrypt(password)
 
-  await createUser({ email, password: passwordHash })
+  await createUser({ username, email, password: passwordHash })
 
   return res.status(201).send({
     error: false,
