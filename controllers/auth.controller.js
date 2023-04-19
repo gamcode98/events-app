@@ -40,7 +40,8 @@ const login = asyncHandler(async (req, res, next) => {
     response: {
       user: {
         id: user._id,
-        email: user.email
+        email: user.email,
+        username: user.username
       },
       token
     }
