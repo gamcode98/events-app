@@ -11,6 +11,7 @@ const newsSchema = new Schema(
     date: { type: String },
     category: [String],
     images: [String],
+    url: { type: String },
     location: { type: String },
     latitude: { type: Number },
     longitude: { type: Number },

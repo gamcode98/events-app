@@ -11,7 +11,7 @@ const news = [
     latitude: -23.203867556133538,
     longitude: -65.34870679861491,
     price: 2000
-   
+
   },
   {
     title: 'Día de la Pachamama: ¿Dónde y cómo se celebra?',
@@ -25,7 +25,7 @@ const news = [
     latitude: -23.744888071910676,
     longitude: -65.50018351451031,
     price: 1500
-    
+
   },
   {
     title: 'Fiesta Nacional de los Estudiantes 2023: 20 al 30 de septiembre',
